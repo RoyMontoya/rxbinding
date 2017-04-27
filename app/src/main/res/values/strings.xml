@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">RxBinding</string>
     <string name="main_button_text">press</string>
-    <string name="unsubscribe_button_text">unsubscribe</string>
+    <string name="unsubscribe_first_button_text">unsubscribe 1</string>
+    <string name="unsubscribe_second_button_text">unsubscribe 2</string>
     <string name="text1">first_text</string>
+    <string name="next_activity"><![CDATA[>]]></string>
+    <string name="edit_hint">Insert text here</string>
 </resources>

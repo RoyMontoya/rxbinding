@@ -10,10 +10,18 @@
         android:id="@+id/first_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="198dp"
+        android:layout_marginTop="199dp"
         android:text="@string/text1"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_toStartOf="@+id/main_button" />
+
+    <TextView
+        android:id="@+id/second_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text1"
+        android:layout_above="@+id/main_button"
+        android:layout_toEndOf="@+id/main_button" />
 
     <Button
         android:id="@+id/main_button"
@@ -28,9 +36,26 @@
         android:id="@+id/unsubscribe_first_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="76dp"
-        android:text="@string/unsubscribe_button_text"
+        android:layout_marginTop="67dp"
+        android:text="@string/unsubscribe_first_button_text"
         android:layout_below="@+id/main_button"
-        android:layout_centerHorizontal="true" />
+        android:layout_toStartOf="@+id/main_button" />
+
+    <Button
+        android:id="@+id/unsubscribe_second_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/unsubscribe_second_button_text"
+        android:layout_alignBaseline="@+id/unsubscribe_first_button"
+        android:layout_alignBottom="@+id/unsubscribe_first_button"
+        android:layout_toEndOf="@+id/main_button" />
+
+    <Button
+        android:id="@+id/next_activity_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next_activity"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>
